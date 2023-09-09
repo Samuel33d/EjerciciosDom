@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(10, 32, 52);
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+}
+
+.content {
+    color: white;
+    padding: 2.5rem;
+    box-shadow: 5px 5px 5px #15ade0;
+    background-color: rgba(119, 136, 153, 0.5);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.btn--add,
+.btn--rest {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px black;
+}
+
+.content:hover h2 {
+    text-decoration: overline #15ade0;
+}
